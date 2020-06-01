@@ -19,6 +19,8 @@ class Genre
 
   def artists
     songs = songs.map { |song| song.artist }
+    puts songs
+    return
     songs.uniq
   end
 
