@@ -17,4 +17,7 @@ class Doctor
     Appointment.all.filter { |appt| appt.doctor == self }
   end
 
+  def new_appointment(date, patient)
+  end
+
 end
