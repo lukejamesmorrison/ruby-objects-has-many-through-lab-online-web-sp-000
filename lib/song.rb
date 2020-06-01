@@ -10,5 +10,6 @@ class Song
   end
 
   def self.all
-    emd
+    @@all
+  end
 end
