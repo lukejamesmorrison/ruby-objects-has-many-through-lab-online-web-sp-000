@@ -12,4 +12,7 @@ class Genre
     Song.all.filter { |song| song.genre == self }
   end
 
+  def self.all
+  end
+
 end
