@@ -14,6 +14,6 @@ class Artist
   end
 
   def songs
-    
+    Song.all.filter { |song| song.artist == self }
   end
 end
