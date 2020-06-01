@@ -6,6 +6,7 @@ class Patient
 
   def initialize(name)
     @name = name
+    @@ll << self
   end
 
   def self.all
