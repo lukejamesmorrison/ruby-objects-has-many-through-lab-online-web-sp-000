@@ -14,6 +14,7 @@ class Doctor
   end
 
   def appointments
+    Appointment.all.filter { |appt| appt.doctor == self }
   end
 
 end
