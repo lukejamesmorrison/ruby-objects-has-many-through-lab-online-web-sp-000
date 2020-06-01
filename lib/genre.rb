@@ -19,7 +19,7 @@ class Genre
 
   def artists
 
-    puts songs.map { |song| song.artist }
+    puts (songs.map { |song| song.artist }).uniq
     return
     songs.uniq
   end
