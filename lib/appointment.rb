@@ -1,2 +1,2 @@
 class Appointment
-  emd
+end
