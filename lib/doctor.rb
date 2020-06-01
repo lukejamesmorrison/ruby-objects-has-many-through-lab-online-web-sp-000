@@ -8,5 +8,8 @@ class Doctor
     @name = name
     @@all << self
   end
+
+  def self.all
+  end
   
 end
